@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #E0E0E0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E1317;
+    object-fit: contain;
+}
+.logoContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #2B2F33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181C20;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #E48B05;
+}
+.message {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 0 20px;
+}
+a {
+    color: #E48B05;
+}
+.team {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #A8A9AA;
+}
